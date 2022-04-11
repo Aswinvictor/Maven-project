@@ -10,14 +10,13 @@ import org.openqa.selenium.WebDriver;
 import com.baseclass.Base_Class;
 import com.sdp.Page_Object_Manager;
 
-public class Runner_Class extends Base_Class {
+public class Runner_AutomationPractice extends Base_Class {
 
 	public static WebDriver driver = getBrowser("chrome");
 
 	public static Page_Object_Manager pom = new Page_Object_Manager(driver);
 
 	public static void main(String[] args) throws AWTException, InterruptedException, IOException {
-
 		getUrl("http://automationpractice.com/index.php");
 		maximixe();
 

@@ -45,7 +45,7 @@ public class Base_Class {
 			driver = new ChromeDriver();
 		} else if (browser.equalsIgnoreCase("Firefox")) {
 			System.setProperty("webdriver.gecko.driver",
-					System.getProperty("user.dir") + "\\driver\\chromedriver_win32\\geckodriver.exe");
+					System.getProperty("user.dir") + "\\driver\\geckodriver\\geckodriver.exe");
 			driver = new FirefoxDriver();
 		}
 		return driver;

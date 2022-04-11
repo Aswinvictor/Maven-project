@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testng.Test_IretryAnalyzer">
+      <class name="com.testng.Groups">
         <methods>
-          <include name="demo1"/>
+          <include name="userName"/>
         </methods>
-      </class> <!-- com.testng.Test_IretryAnalyzer -->
+      </class> <!-- com.testng.Groups -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

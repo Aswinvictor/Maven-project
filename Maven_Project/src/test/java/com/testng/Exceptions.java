@@ -6,7 +6,7 @@ public class Exceptions {
 
 	@Test(expectedExceptions = ArithmeticException.class)
 	private void demo() {
-		System.out.println(10 / 0);//throws arithmetic exception
+		System.out.println(10 / 0);
 	}
 
 }
